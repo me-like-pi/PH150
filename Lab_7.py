@@ -25,3 +25,16 @@ dt = 0.001
 while y[-1] > 0:
     ax = 0
     ay =-g
+    x.append(x[-1] + vx * dt)
+    vx = vx + ax * dt
+    y.append(y[-1] + vy * dt)
+    vy += ay * dt
+    t.append(t[-1] + dt)
+
+
+plt.plot(x,y)
+plt.title('Projectile motion diagram')
+plt.xlabel('Horizonal Position')
+plt.show()
+
+print(x[-1])
