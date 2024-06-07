@@ -7,10 +7,10 @@ plt.close('all')
 g = 9.80
 π = pi
 
-#launch parameters
-v0 = 6.42
-theta = 40 * pi/180 #--> radians
-y0 = 0.970 #--> Meters
+# launch parameters
+v0 = 3.78 # This is from the secound launch.
+theta = 75 * pi/180 #--> radians
+y0 = 1.035 #--> Meters
 
 # Config
 vx = v0 * cos(theta)
