@@ -9,7 +9,7 @@ g = 9.80
 
 # Nominal launch parameters
 v0_nominal = 3.78  # m/s
-theta_nominal = 75 * π / 180  # radians
+theta_nominal = 45 * π / 180  # radians
 y0_nominal = 1.035  # meters
 
 # Uncertainty parameters (standard deviations)
